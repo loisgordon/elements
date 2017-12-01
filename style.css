@@ -56,33 +56,32 @@ a:hover {
     width: 100%;
     line-height: 1em;
     margin: auto;
-    background-color: #5FB2E4;
+   /*--- background-color: #5FB2E4; ---*/
     font-size: 3em;
     padding-bottom: 1em;
     float: left;
 }
 
-section.about img {
-    max-width: 100%;
-    margin: auto;
-    max-height: 250px;
-    max-width: 250px;
-    padding-bottom: 2em;
-    padding-top: 2em;
-}
 
 section.about h2 {
     letter-spacing: 0.01em;
     max-width: 100%;
     text-align: center;
+    float: right
     margin: auto;
     font-size: .75em;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
+    padding-right: 4em;
+    padding-top: 4em;
     font-family: 'dosis', sans-serif;
     font-weight: normal;
     color: white;
+    float: right;
 }
 
+section.about {
+     background: url(img/element_index_background_yel&blu.png);
+}
 .work {
     width: 100%;
     line-height: 1em;
