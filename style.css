@@ -58,7 +58,7 @@ a:hover {
     margin: auto;
     background-color: #5FB2E4;
     font-size: 3em;
-    padding-bottom: 5em;
+    padding-bottom: 1em;
     float: left;
 }
 
@@ -72,12 +72,12 @@ section.about img {
 }
 
 section.about h2 {
-    line-height: 1.65em;
-    letter-spacing: .01em;
+    letter-spacing: 0.01em;
     max-width: 100%;
     text-align: center;
     margin: auto;
     font-size: .75em;
+    padding-bottom: 2em;
     font-family: 'dosis', sans-serif;
     font-weight: normal;
     color: white;
