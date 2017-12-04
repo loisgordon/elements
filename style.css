@@ -67,7 +67,6 @@ section.about h2 {
     letter-spacing: 0.01em;
     max-width: 100%;
     text-align: center;
-    float: right
     margin: auto;
     font-size: .75em;
     padding-bottom: 4em;
@@ -76,11 +75,10 @@ section.about h2 {
     font-family: 'dosis', sans-serif;
     font-weight: normal;
     color: white;
-    float: right;
 }
 
 section.about {
-     background: url(img/element_index_background_yel&blu.png);
+     background: url(img/element_index_backgroundpeople.png);
 }
 .work {
     width: 100%;
