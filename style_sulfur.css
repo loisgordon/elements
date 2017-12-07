@@ -15,41 +15,35 @@ body {
     font-family: 'dosis', sans-serif;
     color: black;
     float: left;
-    cursor: url(img/lilac_cursor.png), auto;	
-
 }
+
+
 /*------------------- typography ------------------------*/
 
 .welcome {
     width: 100%;
     height: 100vh;
     margin: auto;
-   /*--- background-color: #5FB2E4; ---*/
+    /*--- background-color: #5FB2E4; ---*/
     font-size: 3em;
-    background: url(img/element_bg_pattern.png);
+    background: url(img/element_index_background_blue.png);
     overflow: hidden;
     background-repeat: no-repeat;
-      cursor: url(img/lilac_cursor.png), auto;	
-
 }
-
 
 section.welcome h2 {
     letter-spacing: 0.01em;
     max-width: 100%;
     text-align: center;
     margin: auto;
-    font-size: 2em;
+    font-size: 1em;
     padding-top: 25%;
+    padding-left: 30%;
     font-family: 'dosis', sans-serif;
-    font-weight:bold;
-    color: #5FB2E4;
+    font-weight: normal;
+    color: white;
 }
 
-#welcome {
-    
-        
-}
 .cards {
     width: 100%;
     line-height: 1em;
@@ -60,8 +54,7 @@ section.welcome h2 {
     float: left;
 }
 
-#cards
-{
+#cards {
     line-height: 1em;
     max-width: 100%;
     margin: auto;
@@ -117,16 +110,15 @@ img {
 }
 
 .gallery > div > a > img {
-     width: 25px;
+    width: 25px;
     transition: .1s;
-     width: 200px;
-
+    width: 200px;
 }
+
 .gallery > div:hover > a > img {
     transform: scale(1.5, 1.5);
     transition: .3s
 }
-    
 
 .cf:before,
 .cf:after {
@@ -172,21 +164,23 @@ section.contact li {
 }
 
 section.contact ul {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
     padding-top: 20px;
     padding-right: 2.5em;
 }
+
 section.contact img {
-      max-height: 5em;
-        max-width: 5em;
-        padding-top: 1em;
-      
+    max-height: 5em;
+    max-width: 5em;
+    padding-top: 1em;
 }
+
 
 /*--- paragraphs ---*/
 
-p {  line-height: 1.65em;
+p {
+    line-height: 1.65em;
     letter-spacing: .01em;
     max-width: 100%;
     text-align: center;
@@ -195,28 +189,31 @@ p {  line-height: 1.65em;
     font-family: 'dosis', sans-serif;
     font-weight: normal;
     color: black;
-    
 }
 
 .visualmarque {
     padding-bottom: .5em;
 }
+
 .citybike {
     padding-bottom: .5em;
 }
+
 .citybike img {
     max-height: 19em;
     max-width: 25em;
     padding: .5em;
 }
 
-.brandguidelines  {
+.brandguidelines {
     padding-top: 1em;
 }
-.brandguidelines a{
+
+.brandguidelines a {
     color: black;
     text-decoration: none;
 }
+
 .brandguidelines a:hover {
     color: #ffa500;
     text-decoration: none;
