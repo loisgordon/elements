@@ -94,6 +94,7 @@ img {
 .gallery {
     margin: 3em;
     padding: 5px;
+  
 }
 
 .gallery > div {
@@ -109,11 +110,13 @@ img {
 
 .gallery > div:hover {
     z-index: 1;
+
 }
 
 .gallery > div:hover > img {
-    transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5) ;
     transition: .3s
+        
 }
 
 .gallery > div > a > img {
@@ -125,6 +128,7 @@ img {
 .gallery > div:hover > a > img {
     transform: scale(1.5, 1.5);
     transition: .3s
+
 }
     
 
@@ -133,12 +137,29 @@ img {
     display: table;
     content: "";
     line-height: 0;
+
 }
 
 .cf:after {
     clear: both;
+      cursor: url(img/lilac_select.png), auto;
 }
-
+/* ---------- select cursors -------*/
+#sulfur {
+      cursor: url(img/blue_select.png), auto;
+}
+#helium {
+      cursor: url(img/grey_select.png), auto;
+}
+#calcium {
+      cursor: url(img/lilac_select.png), auto;
+}
+#nitrogen {
+      cursor: url(img/orange_select.png), auto;
+}
+#oxygen {
+      cursor: url(img/yellow_select_1.png), auto;
+}
 
 /*----- Footer -----*/
 
