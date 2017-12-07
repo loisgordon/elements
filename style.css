@@ -16,51 +16,17 @@ body {
     color: black;
     float: left;
 }
-
-
-/*------- nav ---------------------------------
-
-nav {
-    padding: 3em 1em 3em 1em;
-    margin: auto;
-    max-width: 100%;
-    float: right;
-}
-
-nav ul {
-    text-align: center;
-    font-size: 1em;
-    letter-spacing: 1.5px;
-    margin: .25em;
-}
-
-nav ul li {
-    display: inline;
-    margin: 30px;
-}
-
-nav a {
-    color: black;
-    text-decoration: none;
-    font-family: 'dosis', sans-serif;
-}
-
-a:hover {
-    color: #C497C5;
-}
-
-*/
 /*------------------- typography ------------------------*/
 
 .about {
     width: 100%;
     height: 100vh;
-    line-height: 1em;
     margin: auto;
    /*--- background-color: #5FB2E4; ---*/
     font-size: 3em;
     background: url(img/element_index_background_blue.png);
     overflow: hidden;
+    background-repeat: no-repeat;
 }
 
 
