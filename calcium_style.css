@@ -41,13 +41,13 @@ section.welcome {
     padding-top: 2em;
 }
 
-#helium img {
+#calcium img {
         max-height: 400px;
         max-width: 400px;
         margin-left: 60vw;
     }
 
-.about-helium {
+.about-calcium {
     width: 100%;
     line-height: 1em;
     margin: auto;
@@ -56,12 +56,12 @@ section.welcome {
     float: left;
     max-height: 100vh;
 }
-.about-helium h2 {
+.about-calcium h2 {
     
     margin-left: 100px
 }
 
-#about-helium-list ul {
+#about-calcium-list ul {
     line-height: 2em;
     margin-left: -100px;
     font-size: 30px;
@@ -70,12 +70,12 @@ section.welcome {
     width: 50%;
   
 }
-#about-helium-list-2 li {
+#about-calcium-list-2 li {
      list-style-image: url('img/lilac-bullet.png');
    
 }
 
-#about-helium-list-2 ul {
+#about-calcium-list-2 ul {
     line-height: 2em;
     margin-left:100px;
     font-size: 30px;
@@ -83,7 +83,7 @@ section.welcome {
     width: 50%;
   
 }
-#about-helium-list li {
+#about-calcium-list li {
      list-style-image: url('img/lilac-bullet.png');
    
 }
