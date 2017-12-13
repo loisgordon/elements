@@ -88,7 +88,7 @@ img {
 }
 
 
-/*---css import---*/
+/*---gallery---*/
 
 @import "compass/css3";
 .gallery {
@@ -116,6 +116,8 @@ img {
 .gallery > div:hover > img {
     transform: scale(1.5, 1.5) ;
     transition: .3s
+         cursor: url(img/blue_select.png), auto;
+        
         
 }
 
@@ -137,15 +139,16 @@ img {
     display: table;
     content: "";
     line-height: 0;
+    
 
 }
 
 .cf:after {
     clear: both;
-      cursor: url(img/lilac_select.png), auto;
+
 }
 /* ---------- select cursors -------*/
-#sulfur {
+#sulfur: hover {
       cursor: url(img/blue_select.png), auto;
 }
 #helium {
@@ -157,7 +160,7 @@ img {
 #nitrogen {
       cursor: url(img/orange_select.png), auto;
 }
-#oxygen {
+#oxygen: hover {
       cursor: url(img/yellow_select_1.png), auto;
 }
 
