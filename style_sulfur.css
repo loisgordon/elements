@@ -20,6 +20,8 @@ body {
 
 /*------------------- typography --------------------------*/
 
+
+
 section.welcome h2 {
     letter-spacing: 0.01em;
     max-width: 100%;
@@ -43,10 +45,8 @@ section.welcome {
 #sulfur img {
         max-height: 300px;
         max-width: 300px;
-        float: left;
-    
-    
-}
+        margin-left: 60vw;
+    }
 
 .about-sulfur {
     width: 100%;
@@ -54,28 +54,12 @@ section.welcome {
     margin: auto;
     background-color: white;
     font-size: 1.75em;
-    padding-bottom: .5em;
     float: left;
+    max-height: 100vh;
 }
 
-#cards {
-    line-height: 1em;
-    max-width: 100%;
-    margin: auto;
-    padding-top: 1em;
-}
-
-section.cards h2 {
-    line-height: 1.65em;
-    letter-spacing: .01em;
-    max-width: 100%;
-    text-align: center;
-    margin: auto;
-    font-size: 1em;
-    font-family: 'dosis', sans-serif;
-    font-weight: normal;
-    color: gray;
-    padding-top: .5em;
+.aboutsulfur h2 {
+    
 }
 
 img {
@@ -83,52 +67,21 @@ img {
     display: block;
     margin: auto;
 }
-
+#back-button {
+    margin-left: 20px;
+    float: left;
+}
 
 /*------------------------------------ Footer ---------------------------------------*/
 
-
-/*------ social media links ----*/
-
-.contact {
+.footer {
     width: 100%;
     line-height: 1em;
     margin: auto;
     background-color: #C497C5;
     font-size: 1.75em;
-    padding-bottom: 4em;
-    padding-top: 2em;
-    float: left;
     font-family: 'dosis', sans-serif;
 }
-
-section.contact h1 {
-    line-height: 1em;
-    max-width: 100%;
-    text-align: center;
-    margin: auto;
-    font-size: 1em;
-    font-family: 'dosis', sans-serif;
-    color: white;
-}
-
-section.contact li {
-    display: inline;
-}
-
-section.contact ul {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    padding-right: 2.5em;
-}
-
-section.contact img {
-    max-height: 5em;
-    max-width: 5em;
-    padding-top: 1em;
-}
-
 
 /*--- paragraphs ---*/
 
