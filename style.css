@@ -190,7 +190,7 @@ section.contact h1 {
 }
 
 section.contact h1:hover {
-   color: yellow;
+   color: ;
     cursor: url(img/arrow-orange.png);
      transform: scale(1.5, 1.5) ;
     transition: .3s
