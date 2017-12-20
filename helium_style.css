@@ -86,10 +86,12 @@ section.welcome {
     width: 50%;
   
 }
+/*--------------- bullets image --------
 #about-helium-list li {
      list-style-image: url('img/lilac-bullet.png');
    
 }
+------*/
 
 img {
     max-width: 100%;
@@ -102,7 +104,10 @@ img {
 }
 #back-button: hover{
     transform: scale(1.5, 1.5) ;
-    transition: .3s
+    transition: .3s;
+    z-index: 1;
+    
+        
 }
 
 
