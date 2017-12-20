@@ -92,12 +92,13 @@ section.welcome {
    
 }
 -------*/
-
+/*------------ imgs -------------------------------*/
 img {
     max-width: 100%;
     display: block;
     margin: auto;
 }
+
 #back-button {
     margin-left: 30px;
     float: left;
