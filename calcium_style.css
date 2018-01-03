@@ -20,7 +20,13 @@ body {
 
 /*------------------- typography --------------------------*/
 
-
+section.welcome h1 {
+    max-width: 100%;
+    text-align: center;
+    margin-right: 15em;
+    font-size: 2em;
+    margin-top: 1em;
+}
 section.welcome h2 {
     letter-spacing: 0.01em;
     max-width: 100%;
