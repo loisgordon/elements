@@ -70,11 +70,12 @@ section.welcome {
     width: 50%;
   
 }
+/*------------- bullets -----
 #about-calcium-list-2 li {
      list-style-image: url('img/lilac-bullet.png');
    
 }
-
+-*/
 #about-calcium-list-2 ul {
     line-height: 2em;
     margin-left:100px;
@@ -82,22 +83,33 @@ section.welcome {
     margin-top: 70px;
     width: 50%;
   
+    
 }
+
+/*------------- bullets -----
 #about-calcium-list li {
      list-style-image: url('img/lilac-bullet.png');
    
 }
-
+------*/
 img {
     max-width: 100%;
     display: block;
     margin: auto;
 }
 #back-button {
-    margin-left: 30px;
+    margin-left: 40px;
     float: left;
 }
 
+
+#back-button:hover {
+    transform: scale(1.25, 1.25) ;
+    transition: .3s;
+    z-index: 1;
+    
+        
+}
 /*--- paragraphs ---*/
 
 p {

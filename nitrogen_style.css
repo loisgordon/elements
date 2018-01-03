@@ -96,10 +96,18 @@ img {
     margin: auto;
 }
 #back-button {
-    margin-left: 30px;
+    margin-left: 40px;
     float: left;
 }
 
+
+#back-button:hover {
+    transform: scale(1.25, 1.25) ;
+    transition: .3s;
+    z-index: 1;
+    
+        
+}
 /*--- paragraphs ---*/
 
 p {
