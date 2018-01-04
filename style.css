@@ -15,24 +15,20 @@ body {
     font-family: 'dosis', sans-serif;
     color: black;
     float: left;
-    cursor: url(img/lilac_cursor.png), auto;	
-
 }
+
+
 /*------------------- typography ------------------------*/
 
 .welcome {
     width: 100%;
     height: 100vh;
     margin: auto;
-   /*--- background-color: #5FB2E4; ---*/
     font-size: 3em;
     background: url(img/element_bg_pattern.png);
     overflow: hidden;
     background-repeat: no-repeat;
-      cursor: url(img/lilac_cursor.png), auto;	
-
 }
-
 
 section.welcome h2 {
     letter-spacing: 0.01em;
@@ -42,14 +38,24 @@ section.welcome h2 {
     font-size: 2em;
     padding-top: 25%;
     font-family: 'dosis', sans-serif;
-    font-weight:bold;
+    font-weight: bold;
     color: #5FB2E4;
+    line-height: .0em;
 }
 
-#welcome {
-    
-        
+section.welcome h3 {
+    letter-spacing: 0.01em;
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: .5em;
+   padding-top: 3em;
+    font-family: 'dosis', sans-serif;
+    font-weight: bold;
+    color: #F49918;
+    line-height: 2em
 }
+
 .cards {
     width: 100%;
     line-height: 1em;
@@ -60,8 +66,7 @@ section.welcome h2 {
     float: left;
 }
 
-#cards
-{
+#cards {
     line-height: 1em;
     max-width: 100%;
     margin: auto;
@@ -88,13 +93,12 @@ img {
 }
 
 
-/*---gallery---*/
+/*---cards gallery---*/
 
-@import "compass/css3";
+
 .gallery {
     margin: 3em;
     padding: 5px;
-  
 }
 
 .gallery > div {
@@ -110,61 +114,60 @@ img {
 
 .gallery > div:hover {
     z-index: 1;
--5}
+}
 
 .gallery > div:hover > img {
-    transform: scale(1.5, 1.5) ;
-    transition: .3s
-    cursor: url(img/blue_select.png), auto;
-        
-        
+    transform: scale(1.5, 1.5);
+    transition: .3s;
 }
 
 .gallery > div > a > img {
-     width: 25px;
+    width: 25px;
     transition: .1s;
-     width: 200px;
-
+    width: 200px;
 }
+
 .gallery > div:hover > a > img {
     transform: scale(1.5, 1.5);
     transition: .3s
-
 }
-    
 
 .cf:before,
 .cf:after {
     display: table;
     content: "";
     line-height: 0;
-    
-
 }
 
 .cf:after {
     clear: both;
+}
 
-}
-/* ---------- select cursors -------*/
+
+/* ---------- select cursors ---
+
 #sulfur: hover {
-      cursor: url(img/blue_select.png), auto;
+    cursor: url(img/blue_select.png), auto;
 }
+
 #helium {
-      cursor: url(img/grey_select.png), auto;
+    cursor: url(img/grey_select.png), auto;
 }
+
 #calcium {
-      cursor: url(img/lilac_select.png), auto;
+    cursor: url(img/lilac_select.png), auto;
 }
+
 #nitrogen {
-      cursor: url(img/orange_select.png), auto;
+    cursor: url(img/orange_select.png), auto;
 }
+
 #oxygen: hover {
-      cursor: url(img/yellow_select_1.png), auto;
+    cursor: url(img/yellow_select_1.png), auto;
 }
+----*/
 
 /*----- Footer -----*/
-
 
 .contact {
     width: 100%;
@@ -186,14 +189,18 @@ section.contact h1 {
     font-size: 1em;
     font-family: 'dosis', sans-serif;
     color: white;
-    cursor: url(img/arrow-orange.png);
 }
 
-section.contact h1:hover {
-   color: ;
-    cursor: url(img/arrow-orange.png);
-     transform: scale(1.5, 1.5) ;
-    transition: .3s
-    
+section.contact a:hover {
+    color: white;
+    text-decoration: underline;
+
 }
 
+
+section.contact a {
+                text-decoration: none;
+                color: #FFF
+    /*--- cursor: url(img/arrow-orange.png); ---*/
+}
+}
